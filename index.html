@@ -2,162 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Summon of Evil</title>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Cinzel', serif;
-      background: linear-gradient(#1e1e2f, #000);
-      color: #f2f2f2;
-      text-align: center;
+      font-family: 'Arial', sans-serif;
+      background-color: #0b0b0b;
+      color: white;
     }
     header {
-      background-color: #111;
-      padding: 1rem;
+      background: #1a1a1a;
+      text-align: center;
+      padding: 30px 10px;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+    header img {
+      width: 300px;
     }
-    nav {
-      margin-top: 10px;
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
     }
-    nav a {
-      margin: 0 15px;
-      color: #ccc;
-      text-decoration: none;
+    h1, h2 {
+      color: #f54242;
     }
-    main {
-      padding: 2rem;
-    }
-    section {
-      margin: 2rem 0;
-    }
-    h2 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    p {
-      max-width: 800px;
-      margin: 0 auto 1rem;
-      line-height: 1.6;
-    }
-    .btn {
-      display: inline-block;
-      margin: 10px;
-      padding: 10px 20px;
-      background-color: #e63946;
-      color: #fff;
+    .button {
+      background: #f54242;
+      color: white;
+      padding: 15px 25px;
       text-decoration: none;
       border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
     }
-    form input, form button {
-      padding: 10px;
-      margin: 10px 5px;
-      width: 200px;
-      max-width: 90%;
-    }
-    img.screenshot {
-      max-width: 90%;
-      margin: 20px auto;
-      border-radius: 10px;
-      display: block;
-    }
-    iframe.video {
-      width: 90%;
-      height: 315px;
-      max-width: 560px;
-      margin: 20px auto;
-      display: block;
-      border: none;
-      border-radius: 10px;
-    }
-    footer {
-      background-color: #111;
-      padding: 1rem;
-      font-size: 0.9rem;
-      color: #aaa;
-    }
-    .news-box {
-      background-color: #222;
-      border-left: 4px solid #e63946;
-      padding: 1rem;
-      margin: 1rem auto;
-      max-width: 800px;
-      text-align: left;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Summon of Evil</h1>
-    <nav>
-      <a href="#how-to-play">How to Play</a>
-      <a href="#world">World</a>
-      <a href="#content">New Content</a>
-      <a href="#media">Media</a>
-      <a href="#news">News</a>
-      <a href="#download">Download</a>
-    </nav>
-    <p>Dark Fantasy Mobile RPG – Coming Soon</p>
-  </header>
-
-  <main>
-    <section id="how-to-play">
-      <h2>How to Play</h2>
-      <p>Collect, summon, and power up hundreds of unique monsters. Battle through dungeons, complete missions, build your floating island base, and dominate the arena. Strategize with runes, boss teams, and real-time PvP!</p>
-    </section>
-
-    <section id="world">
-      <h2>Fantasy World</h2>
-      <p>Explore a rich dark fantasy universe filled with demons, angels, and ancient beasts. Progress through campaign maps, challenge elite bosses, and climb the Spire of the Fallen.</p>
-    </section>
-
-    <section id="content">
-      <h2>New Content</h2>
-      <p>Coming soon: Guild Wars, Global Chat, Elemental Rift Battles, Legendary Summon Events, and more!</p>
-    </section>
-
-    <section id="media">
-      <h2>Game Preview</h2>
-      <img src="https://via.placeholder.com/800x400?text=Game+Screenshot+1" alt="Game Screenshot" class="screenshot" />
-      <iframe class="video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Gameplay Preview" allowfullscreen></iframe>
-    </section>
-
-    <section id="news">
-      <h2>Latest News</h2>
-      <div class="news-box">
-        <strong>🔥 Alpha Testing Starts Soon!</strong>
-        <p>We're preparing the first playable version. Join the beta above and get early access to new monsters and events!</p>
-      </div>
-      <div class="news-box">
-        <strong>🛠️ Feature Update: Repeat Battle System</strong>
-        <p>Now supports 10x runs per dungeon zone. Spire of the Fallen remains manual-only.</p>
-      </div>
-    </section>
-
-    <section id="download">
-      <h2>Play the Game</h2>
-      <p>Coming soon to Android! Stay tuned for the official Play Store release.</p>
-      <a class="btn" href="https://play.google.com/store">Visit Play Store</a>
-      <a class="btn" href="https://tiktok.com">Follow on TikTok</a>
-      <a class="btn" href="https://discord.com">Join our Discord</a>
-    </section>
-
-    <section>
-      <h2>Join the Beta</h2>
-      <form method="POST" action="https://formspree.io/f/your-form-id">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Email Address" required />
-        <button type="submit">Sign Up</button>
-      </form>
-    </section>
-  </main>
-
-  <footer>
-    &copy; 2025 Summon of Evil. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
-  </footer>
-</body>
-</html>
+    .video-section iframe {
+      width: 100%;
+      heigh
